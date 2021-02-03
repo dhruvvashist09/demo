@@ -1,0 +1,13 @@
+syntax = 'proto3';
+
+package protobuf.common;
+
+message apidata {
+   
+   bytes req_data = 1;
+   string request_id = 2;
+   uint32 corporation_site_id = 3;
+   string analysis_timeframe_start = 4;
+   string analysis_timeframe_end = 5;
+   uint32 analysis_time_period = 6;
+}
